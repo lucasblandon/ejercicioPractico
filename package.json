@@ -1,0 +1,28 @@
+{
+  "name": "ejercicioPractico",
+  "version": "1.0.0",
+  "description": "Encontraras un formulario (CRUD) para el ingreso de usuarios (nombre, Apellido, Celular y E-mail) utilizando el Stack MEAN: Mongodb, Express, Angular y Nodejs.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasblandon/ejercicioPractico.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasblandon/ejercicioPractico/issues"
+  },
+  "homepage": "https://github.com/lucasblandon/ejercicioPractico#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
